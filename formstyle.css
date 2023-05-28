@@ -1,0 +1,113 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family:"poppins",sans-serif;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(250, 247, 247);
+    display: grid;
+    place-items: center;
+    border: none;
+}
+.container{
+    width: 700px;
+    border: 1px solid rgb(198, 195, 195);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px ;
+}
+.container h5{
+    font-weight: 700;
+    color: rgb(20, 23, 20);
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 15px;    
+}
+.name {
+    font-weight: 600;}
+   
+.input1{
+    width: 150px;
+    margin: 7px;
+   }
+.email{
+    font-weight: 600;
+}
+.input3{
+
+    width: 320px;
+    margin: 7px;
+
+}
+.form-control{
+    font-weight: 600;
+    display: inline-block;
+    /* background-color:transparent;*/
+} 
+.input4{
+    
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.table1{
+    background-color:none;
+    border: transparent 100%;
+}
+.table2{
+    background-color:rgb(253, 242, 242);
+    border: transparent 100%;
+    
+}
+.tablehow{
+ 
+   border: rgb(254, 252, 252);
+   margin: 200px;
+   padding-top: 100px;
+}
+
+.para{
+    font-size: small ;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.rowlast{
+    background: none;
+}
+.design{
+    /* border: 1px solid black; */
+    font-size: 10px;
+    padding: 3px 4px;
+    visibility: visible;
+    position: absolute;
+    color: rgb(229, 61, 61);
+    
+}
+.form-control span{
+    visibility: visible;
+    position: absolute;
+    border-top:20px ;
+
+}
+.button{
+    padding: 10px;
+    margin: 10px 15px 10px 10px;
+    width: 100px;
+    border:1px solid  black
+}
+.button:hover
+{
+    background-color: rgb(177, 244, 159);
+}
+.button:active
+{
+    background-color: rgb(4, 100, 47);
+}
+
